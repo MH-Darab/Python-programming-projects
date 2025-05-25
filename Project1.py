@@ -28,7 +28,7 @@ while True:
     if awnser=="a":
         word = input("Give your word to say what's the meaning: ").strip().lower()
         if word in dictionary:
-            print(f"Meaning: {dictionary[word]}")
+            input(f"Meaning: {dictionary[word]}")
             z()
         else:
             answer1 = input("I don't know this word. Do you know it? (y/n): ").strip().lower()
